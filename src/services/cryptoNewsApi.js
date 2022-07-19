@@ -3,7 +3,7 @@ const cryptoNewsHeaders={'x-bingapis-sdk': 'true',
 'X-RapidAPI-Key': 'c652d5f1a6msh221fea985aff833p1d9a2cjsnc56fa9fc2e0b',
     'X-RapidAPI-Host': 'crypto-news-live3.p.rapidapi.com'}
 
-const baseUrl='https://crypto-news-live3.p.rapidapi.com/news';
+const baseUrl='https://crypto-news-live3.p.rapidapi.com';
 
 const createRequest = (url) => ({ url, headers: cryptoNewsHeaders });
 export const cryptoNewsApi = createApi({
